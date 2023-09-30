@@ -7,7 +7,7 @@ def index(request):
     return render(request,"App/index.html",{})
 
 def aboutus(request):
-    return render(request,"App/aboutus.html",{})
+    return render(request,"App/about.html",{})
 
 def contact(request):
     return render(request,"App/contact.html",{})
